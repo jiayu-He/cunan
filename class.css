@@ -1,0 +1,217 @@
+/* 价格属性一致 */
+.xinpin_photo .one_photo li:last-child p:first-child,
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:last-child,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1 p:last-child
+{
+	color: #c90000;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+/* 价格符号红色 */
+.xinpin_photo .one_photo li:last-child p:first-child span,
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:last-child span,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1 p:last-child span
+{
+	color: #c90000;
+	font-size: 14px;
+	font-family: "Arial";
+}
+/* 删除线 */
+.xinpin_photo .one_photo li:last-child p:last-child span,
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:last-child span:last-child,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two_a .two_a_1 p:last-child span:last-child
+
+{
+	text-decoration: line-through;
+	font-family: "Arial";
+	padding-left: 5px;
+	color: #adadad;
+}
+
+
+/* 嵌套的div */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a
+{
+	width: 384px;height: 168px;
+	padding: 10px 15px;
+	display: flex;
+}
+/* 嵌套的div的左侧div */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1
+{
+	width: 215px;
+	padding-right: 12px;
+	padding-top: 20px;
+}
+/* 嵌套的div的左侧div上面p标签的文字 */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:first-child,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1 p:first-child
+{
+	width: 95%;height: 36px;
+}
+/* 嵌套的div的左侧div上面p标签的文字 */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:first-child a,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1 p:first-child a
+{
+	color: #727171;
+	line-height: 18px;
+}
+/* 嵌套的div的左侧div下面p标签的价格 */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .one_a .one_a_1 p:last-child,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .two_a .two_a_1 p:last-child
+{
+	margin-top: 20px;
+}
+/*嵌套的div的右侧的图片  */
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .img_1,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .img_1
+{
+	display: block;
+    width: 168px;height: 168px;
+    transition: all 0.2s linear;
+}
+/* 嵌套的div的下侧的图片 */
+.index_floor3 .index_floor3_b .index_floor3_b_right .three p,
+.index_floor3 .index_floor3_b .index_floor3_b_right .four p,
+.index_floor3 .index_floor3_b .index_floor3_b_right .five p,
+.index_floor3 .index_floor3_b .index_floor3_b_right .six p
+{
+	width: 180px;height: 122px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.index_floor3 .index_floor3_b .index_floor3_b_right .three p img,
+.index_floor3 .index_floor3_b .index_floor3_b_right .four p img,
+.index_floor3 .index_floor3_b .index_floor3_b_right .five p img,
+.index_floor3 .index_floor3_b .index_floor3_b_right .six p img
+{
+	display: block;
+	width: 122px;height: 122px;
+    margin-left: 29px;
+    transition: all 0.2s linear;
+}
+/* 悬停背景过渡效果 */
+/* 转换下的偏移属性 */
+.xinpin_photo .one_photo li:first-child a img:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .one .img_1:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .two .img_1:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .three p img:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .four p img:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .five p img:hover,
+.index_floor3 .index_floor3_b .index_floor3_b_right .six p img:hover,
+.footer_a .sm_right img:hover
+{
+	transform: translateX(-3.36px);
+}
+
+.index_floor3 .index_floor3_b .index_floor3_b_right .three p:last-child a,
+.index_floor3 .index_floor3_b .index_floor3_b_right .four p:last-child a,
+.index_floor3 .index_floor3_b .index_floor3_b_right .five p:last-child a,
+.index_floor3 .index_floor3_b .index_floor3_b_right .six p:last-child a
+{
+	display: block;
+	overflow: hidden;
+	width: 180px;
+	margin: 0px auto;
+	margin-top: 3px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* 公共属性 */
+.footer_a .sm_right ul{
+	width: 106px;
+}
+.footer_a .sm_right ul li:first-child{
+	width: 95%;height: 36px;
+	overflow: hidden;
+}
+.footer_a .sm_right ul li a:first-child{
+	color: #727171;
+	display: block;
+}
+.footer_a .sm_right ul li:nth-child(2){
+	width: 95%;height: 54px;
+	overflow: hidden;
+	line-height: 18px;
+}
+.footer_a .sm_right ul li:last-child{
+	margin-top: 30px;
+}
+.footer_a .sm_right ul li:last-child a:last-child{
+	color: #ff0000;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.footer_a .sm_right ul li:last-child a:last-child span{
+	color: #ff0000;
+	font-family: "Airal";
+}
+/* 图片设置转块级 */
+.footer_a .sm_right img{
+	width: 136px;height: 136px;
+    display: block;
+    transition: all 0.2s linear;
+}
+
+
+/* 8F */
+.index_floor8 .index_floor8_content .left .p_1,
+.index_floor8 .index_floor8_content .left_2 .p_1,
+.index_floor8 .index_floor8_content .right .p_1,
+.index_floor8 .index_floor8_content .right_2 .p_1
+{
+	width: 292px;height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #FFAC13;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.index_floor8_content .left .p_2,
+.index_floor8_content .left_2 .p_2,
+.index_floor8_content .right .p_2,
+.index_floor8_content .right_2 .p_2
+{
+	width: 292px;height: 18px;
+	font-family: "微软雅黑";
+	line-height: 18px;
+	font-size: 18px;
+	text-align: center;
+}
+.index_floor8_content .left .p_3,
+.index_floor8_content .left_2 .p_3,
+.index_floor8_content .right .p_3,
+.index_floor8_content .right_2 .p_3
+{
+	width: 292px;height: 28px;
+	font-family: "微软雅黑";
+	line-height: 28px;
+	font-size: 14px;
+	text-align: center;
+	color: #9fa0a0;
+}
+.index_floor8_content .left .a_1,
+.index_floor8_content .left_2 .a_1,
+.index_floor8_content .right .a_1,
+.index_floor8_content .right_2 .a_1
+{
+	display: block;
+	width: 120px;height: 30px;
+	border: 1px solid #FFAC13;
+	line-height: 30px;
+	text-align: center;
+	color: #FFAC13;
+	margin-top: 10px;
+}
+.index_floor8_content .left .a_2,
+.index_floor8_content .left_2 .a_2,
+.index_floor8_content .right .a_2,
+.index_floor8_content .right_2 .a_2
+{
+	display: block;
+	width: 176px;height: 176px;
+	margin-top: 30px;
+}

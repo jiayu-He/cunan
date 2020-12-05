@@ -1,0 +1,50 @@
+body,ul,div,p,h1,h2,h3,h4,h5,h6,b,span,i,li,u,img,a,input{margin: 0;padding: 0;border: 0;text-decoration: none; outline: 0;color: #333;font-style: normal;font-size: 12px; list-style: none;font-family: "宋体";}
+body{
+    font: 12px Arial, Tahoma, 宋体;
+    color: #454545;
+}
+/* 头部栏 */
+.dl_large{
+    width: 100%;height: 100px;
+    background: #db2766;
+}
+.dl_large .dl_header{
+    width: 1000px;height: 82px;
+    padding-top: 18px;
+    margin:0 auto;
+}
+.dl_large .dl_header h1{
+    width: 325px;height: 70px;
+    background: url(content/images/login/logo.png) no-repeat;
+    float: left;
+    margin-right: 40px;
+}
+.dl_large .dl_header img{
+    width: 127px;height: 35px;
+    margin-top: 24px;
+}
+
+
+/* 底部栏 */
+.bottom{
+    width: 100%;
+    background: #fff;
+    margin-top: 60px;
+    border-top: 1px solid #bdbdbd;
+}
+.bottom .dl_center{
+    width: 1200px;height: 72px;
+    margin: 0 auto;
+    padding: 24px 0;
+    text-align: center;
+}
+.bottom .dl_center p{
+    width: 1200px;height: 24px;
+    color: #999999;
+    line-height: 24px;
+    text-align: center;
+}
+.bottom .dl_center p a{
+    margin:0px 8px;
+    color: #666;
+}

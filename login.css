@@ -1,0 +1,87 @@
+body,ul,div,p,h1,h2,h3,h4,h5,h6,b,span,i,li,u,img,a,input{margin: 0;padding: 0;border: 0;text-decoration: none; outline: 0;color: #333;font-style: normal;font-size: 12px; list-style: none;font-family: "宋体";}
+body{
+    font: 12px Arial, Tahoma, 宋体;
+    color: #454545;
+}
+
+
+/* 中间登录页面 */
+.content{
+    width: 1000px;height: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+.content .dl_ad{
+    width: 580px;
+    margin-top: 80px;
+    position: absolute;
+    left: 0px;
+}
+.content .dl_ad_r{
+    width: 356px;margin-top: 80px;
+    position: absolute;
+    right:0px;
+}
+.content .dl_ad_r .p_1{
+    width: 356px;
+    position: relative;
+}
+.content .dl_ad_r .p_1 span{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.content .dl_ad_r .p_1 span a{
+    color: #db2766;
+}
+.content .dl_ad_r .p_1 span a:hover{
+    color: #8f1d78;
+}
+.content .dl_ad_r .input_1{
+    width: 345px;height: 48px;
+    line-height: 48px;
+    padding-left: 9px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 20px;
+}
+.content .dl_ad_r .p_4{
+    position: relative;
+    margin-bottom: 14px;
+}
+.content .dl_ad_r .input_2{
+    width: 13px;height: 13px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    margin: 3px 5px 0 0;
+}
+.content .dl_ad_r .p_4 a{
+    position: absolute;
+    right: 0px;
+    color: #0066dd;
+}
+.content .dl_ad_r .p_4 a:hover{
+    color: #8f1d78;
+}
+.content .dl_ad_r .btn{
+    display: block;
+    width: 356px;height: 50px;
+    background: url(content/images/login/dl.jpg) no-repeat;
+}
+
+.content .dl_ad_r .dl_other{
+    width: 356px;height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.content .dl_ad_r .dl_other b{
+    font-size: 14px;
+    color: #666;
+}
+
+.content .dl_ad_r .dl_way{
+    width: 356px;height: 32px;
+}
+.content .dl_ad_r .dl_way img{
+    margin-right: 20px;
+    width: 32px;height: 32px;
+}

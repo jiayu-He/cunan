@@ -1,0 +1,146 @@
+body,ul,div,p,h1,h2,h3,h4,h5,h6,b,span,i,li,u,img,a,input{margin: 0;padding: 0;border: 0;text-decoration: none; outline: 0;color: #333;font-style: normal;font-size: 12px; list-style: none;font-family: "宋体";}
+
+body{
+   background: #efefef;
+   color: #333;
+   min-width: 1200px;
+   max-width: 1920px;
+   width: 100%;
+}
+
+/* 头部栏 */
+.dl_large{
+   width: 100%;height: 100px;
+   background: #db2766;
+}
+.dl_large .dl_header{
+   width: 1000px;height: 82px;
+   padding-top: 18px;
+   margin:0 auto;
+}
+.dl_large .dl_header h1{
+   width: 325px;height: 70px;
+   background: url(../content/images/login/logo.png) no-repeat;
+   float: left;
+   margin-right: 40px;
+}
+.dl_large .dl_header img{
+   width: 127px;height: 35px;
+   margin-top: 24px;
+}
+
+
+/* 中间部分 */
+/* 注册第一页 */
+.center{
+   width: 1000px;
+   margin: 0 auto;
+}
+.center .zc_dl{
+   width: 1000px;height: 30px;
+   line-height: 30px;
+   margin-top: 30px;
+   text-align: right;
+}
+.center .zc_dl a{
+   margin-left: -5px;
+   color: #0088cc;
+}
+.center .zc{
+   width: 848px;height: 510px;
+   border: 1px solid #e6e6e6;
+   background: #fff;
+   padding: 50px 75px;
+}
+.center .zc ul{
+   width: 848px;height: 37px;
+}
+.center .zc ul li{
+   width: 193px;height: 31px;
+   padding-bottom: 5px;
+   line-height: 31px;
+   border-bottom: 1px solid #e6e6e6;
+   float: left;
+   text-align: center;
+   color: #999999;
+   font-size: 16px;
+   font-weight: bold;
+}
+.center .zc ul .l1{
+   width: 80px;
+}
+.center .zc ul .l2{
+   width: 54px;
+}
+.center .zc ul .zc_active{
+   height: 30px;
+   line-height: 30px;
+   border-bottom: 2px solid #db2766;
+   color: #3e3e3e;
+}
+.center .zc ul .zc_active .one{
+   padding: 4px 8px;
+   background: url(../content/images/login/zcbz.png) no-repeat 0px -30px;
+   color: #fff;
+   margin-right: 8px;
+   font-size: 16px;
+   font-family: Arial;
+}
+.center .zc ul .two{
+   padding: 4px 8px;
+   background: url(../content/images/login/zcbz.png) no-repeat;
+   color: #fff;
+   margin-right: 8px;
+   font-size: 16px;
+   font-family: Arial;
+}
+.center .zc_center{
+   width: 460px;
+   margin: 50px auto 0px;
+}
+.center .zc_center .input_1{
+   width: 418px;height: 50px;
+   border: 1px solid #bbbbbb;
+   padding-left: 40px;
+   font-size: 14px;
+   background: url(../content/images/login/zc_sj.jpg) no-repeat 15px 12px;
+   margin-bottom: 40px;
+}
+.center .zc_center p:last-child{
+   height: 21px;
+   line-height: 21px;
+}
+.center .zc_center .input_2{
+   vertical-align: middle;/*把此元素放置在父元素的中部*/
+}
+.center .zc_center .p_2 a{
+   color: #005aa0;
+}
+.center .zc_center .btn .input_zc{
+   width: 460px;height: 50px;
+   background: url(../content/images/login/zcxy.gif) no-repeat ;
+   margin-top: 30px;
+   border: 0;
+   cursor: pointer;
+} 
+/* 底部栏 */
+.footer{
+   width: 100%;
+   margin-top: 60px;
+}
+.footer .dl_center{
+   width: 1200px;height: 72px;
+   margin: 0 auto;
+   padding: 24px 0;
+   text-align: center;
+}
+.footer .dl_center p{
+   width: 1200px;height: 24px;
+   color: #999999;
+   line-height: 24px;
+   text-align: center;
+}
+.footer .dl_center p a{
+   margin:0px 8px;
+   color: #666;
+}
